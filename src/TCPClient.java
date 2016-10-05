@@ -27,7 +27,6 @@ public class TCPClient {
 					buffer = input.readLine();
 					System.out.println(buffer);
 					writer.println(buffer);
-					//
 				} catch (Exception e) {
 					System.out.println(e.toString());
 				}
